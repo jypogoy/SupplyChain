@@ -1,0 +1,37 @@
+.brand {
+	margin: 0;
+    padding: 0;
+}
+
+.brand li {
+	display: inline;
+}
+
+.icon {
+	color: #38b;
+}
+
+.content-title {
+	padding-top: 50px;
+}
+
+.search-box {
+	width: 25%;
+}
+
+.add-control-column {
+	text-align: right;
+}
+
+.modal-header { /* override class */ 
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #369;
+    color:#FFF;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1"></meta>
+<title>Insert title here</title>
+
+<script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+<script type="text/javascript"  th:src="@{/js/src/customer-edit.js"></script>
+
+</head>
+<body>
+
+	<div ng-controller="CustomerEdit">
+		First Name: <input ng-model="firstName" value="{{customer.firstName}}"/><br/>
+		Last Name: <input ng-model="lastName" value="{{customer.lastName}}"/><br/>
+		Email: <input ng-model="email" value="{{customer.email}}"/>
+		<button ng-click="save()" ng-enter="save()">Save</button>
+	</div>
+
+</body>
+</html>
